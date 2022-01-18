@@ -1,0 +1,44 @@
+Next: Create SOAP request for Daily Shift Report and then create a new dataflow for it in WebServiceTaskExample ETL script. 
+Notes: 
+Web URL: https://api.plexonline.com/DataSource/service.asmx
+Array Filter: $.soap:Envelope.soap:Body.ExecuteDataSourceResponse.ExecuteDataSourceResult.ResultSets.ResultSet.Rows.Row[*].Columns[*] 
+Had to add [*] to Columns. 
+Array Handling: Row,Columns 
+I did not add this it just appeared. 
+Array Transform: Key/Value to Columns. 
+$.Column[*].Name 
+$.Column[*].Value 
+Http Headers: Had to press Raw Edit button and copy 
+Accept: */* 
+Cache-Control: no-cache 
+Content-Type: application/soap+xml; charset=utf-8 
+SOAPAction: http://www.plexus-online.com/DataSource/ExecuteDataSource 
+Body Content: text/xml
+Body (Request Data) : 
+Had problems copy/paste from SoapUI so I took template from Get Container and changed the parameters. 
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:dat="http://www.plexus-online.com/DataSource">  
+<soap:Header/>  
+<soap:Body>  
+<dat:ExecuteDataSource>  
+<ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">  
+<DataSourceKey>9726</DataSourceKey>  
+<InputParameters>  
+<InputParameter>  
+<Value>1/18/2022</Value>  
+<Name>@Start_Date</Name>  
+<Required>true</Required>  
+<Output>false</Output>  
+</InputParameter>  
+<InputParameter>  
+<Value>1/18/2022</Value>  
+<Name>@End_Date</Name>  
+<Required>false</Required>  
+<Output>false</Output>  
+</InputParameter>  
+</InputParameters>  
+<DataSourceName>Daily_Shift_Report_Get</DataSourceName>  
+</ExecuteDataSourceRequest>  
+</dat:ExecuteDataSource>  
+</soap:Body>  
+</soap:Envelope> 
