@@ -1,0 +1,31 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+   <dat:ExecuteDataSource>  
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>13916</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>4642</Value>
+        <Name>@Cost_Model_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>2022-01</Value>
+        <Name>@Start_Period</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>2022-01</Value>
+        <Name>@End_Period</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Cost_Gross_Margin_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+</dat:ExecuteDataSource>  
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>16009</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>19760</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Cost_Model_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Cost_Sub_Type_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 100</Value>
+        <Name>@Part_No</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Part_Types</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Unlocked</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Note</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@All_CST</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Include_Calc_Note</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Item_No</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Include_Items</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Include_Parts</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Cost_Components_Download</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>STRING, max length 10</Value>
+              <Name>Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Description</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 8</Value>
+              <Name>Revision</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 30</Value>
+              <Name>Operation</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 101</Value>
+              <Name>Column_Header</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Total_Cost</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 40</Value>
+              <Name>Grade</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Part_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 3</Value>
+              <Name>Unlocked</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Note</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Operation_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 500</Value>
+              <Name>Calc_Note</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>

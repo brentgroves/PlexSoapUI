@@ -1,0 +1,26 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:dat="http://www.plexus-online.com/DataSource">  
+<soap:Header/>  
+<soap:Body>  
+<dat:ExecuteDataSource>  
+<ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">  
+<DataSourceKey>16122</DataSourceKey>  
+<InputParameters>  
+      <InputParameter>
+        <Value>1/1/2022</Value>
+        <Name>@Invoice_From_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>2/1/2022</Value>
+        <Name>@Invoice_To_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+
+</InputParameters>  
+<DataSourceName>Gross_Profits_Get</DataSourceName>  
+</ExecuteDataSourceRequest>  
+</dat:ExecuteDataSource>  
+</soap:Body>  
+</soap:Envelope> 

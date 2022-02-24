@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:dat="http://www.plexus-online.com/DataSource">  
+<soap:Header/>  
+<soap:Body>  
+<dat:ExecuteDataSource>  
+<ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">  
+<DataSourceKey>16092</DataSourceKey>  
+<InputParameters>  
+      <InputParameter>
+        <Value>1</Value>
+        <Name>@Active_Parts</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+</InputParameters>  
+<DataSourceName>Part_Operations_Get_v2</DataSourceName>  
+</ExecuteDataSourceRequest>  
+</dat:ExecuteDataSource>  
+</soap:Body>  
+</soap:Envelope> 

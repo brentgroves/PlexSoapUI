@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>16092</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>4322</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>VARCHAR, max length 20</Value>
+        <Name>@Operation_No</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 200</Value>
+        <Name>@Operation_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Standard_Container_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Part_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Active_Part_Ops</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 500</Value>
+        <Name>@Part_Op_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 115</Value>
+        <Name>@Part_No_Revision</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Part_Status</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Active_Parts</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Part_Group_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Part_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 40</Value>
+        <Name>@Grade</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Customer_No</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Workcenter_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Customer_Part_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Location_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Customer_Part_Display</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Filter_Parts_By_Status_Permission</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 10</Value>
+        <Name>@Part_Rev_Separator</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Part_Operations_Get_v2</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Operation_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 8</Value>
+              <Name>Revision</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 118</Value>
+              <Name>Part_No_Revision</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Description</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Operation_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 1500</Value>
+              <Name>Description</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 30</Value>
+              <Name>Operation_Code</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Net_Weight</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Standard_Container_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 500</Value>
+              <Name>Note</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Small_Image</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Suboperation</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Standard_Quantity</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 5000</Value>
+              <Name>Approved_Suppliers</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 5000</Value>
+              <Name>Approved_Workcenters</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Part_Op_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Standard</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 10</Value>
+              <Name>Color</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Standard_Production_Rate</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Setup_Time</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 5000</Value>
+              <Name>Out_Parts</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 40</Value>
+              <Name>Grade</Name>
+            </Column>
+            <Column>
+              <Value>BIT</Value>
+              <Name>Shippable</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Minimum_Quantity</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Container_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>WIP_Conversion_Factor</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Crew_Size</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Location</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 35</Value>
+              <Name>Primary_Customer</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>

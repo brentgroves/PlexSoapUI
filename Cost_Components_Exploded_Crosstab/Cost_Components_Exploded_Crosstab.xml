@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>16010</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>10205</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Cost_Model_Key</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Part_Key</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Active_Only</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 8000</Value>
+        <Name>@Cost_Sub_Type_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Cost_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Cost_Components_Exploded_Crosstab</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>STRING, max length 10</Value>
+              <Name>Table</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Description</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 200</Value>
+              <Name>Name</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 20</Value>
+              <Name>Material_Unit</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 500</Value>
+              <Name>Note</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 201</Value>
+              <Name>Column</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Sort_Order</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Quantity</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 20</Value>
+              <Name>Unit</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Material_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Piece_Weight</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Offal_Weight</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 15</Value>
+              <Name>Offal_Grade</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Offal_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Change_Date</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Product_Line</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Description</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Unit</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Date</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>

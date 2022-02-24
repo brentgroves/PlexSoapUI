@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>15991</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>13916</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Cost_Model_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Part_No</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Customer_Code</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>DATETIME</Value>
+        <Name>@Cost_Model_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Product_Type_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Salesperson</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Start_Period</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@End_Period</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 20</Value>
+        <Name>@Report</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Part_Types</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Part_Group_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@PO_Type_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Include_Derived_Columns</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Part_Product_Type_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Department_No</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Include</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Return_Type_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Ship_To</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Customer_Parent_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 1000</Value>
+        <Name>@PCNs</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>DATETIME</Value>
+        <Name>@Begin_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>DATETIME</Value>
+        <Name>@End_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Ship_From_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Customer_Category_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 60</Value>
+        <Name>@Customer_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Part_Source_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Part_Status</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 2147483646</Value>
+        <Name>@Master_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Pivot</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Customer_Parent_Code</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Cost_Gross_Margin_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>STRING, max length 35</Value>
+              <Name>Customer_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Salesperson</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Order_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>PO_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Product_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Description</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Sales_Qty</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Sales_Unit</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Quantity</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Quantity_Unit</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Unit_Price</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Revenue</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Invoice_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Group</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>PO_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Net_Weight</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Cost_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Cost_Sub_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Shipper_Line_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Total</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>SGA_Percent</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>SGA_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Scrap_Percent</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Scrap_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Total_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost_Per_Sales</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Markup</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Margin</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Customer_Abbreviated_Name</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 10</Value>
+              <Name>Customer_Currency_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Cost_Column</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Line_Item_No</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Gross_Margin_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Customer_Category</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Customer_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Source</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Production_Qty</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_Revision</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Customer_Part_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Customer_Part_Revision</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Sequence_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Master_No</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Ext_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost_Type_Order</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>
