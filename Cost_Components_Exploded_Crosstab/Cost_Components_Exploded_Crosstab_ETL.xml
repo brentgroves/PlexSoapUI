@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+   <dat:ExecuteDataSource>  
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>10205</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>4642</Value>
+        <Name>@Cost_Model_Key</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>2960018</Value>
+        <Name>@Part_Key</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+
+    </InputParameters>
+    <DataSourceName>Cost_Components_Exploded_Crosstab</DataSourceName>
+  </ExecuteDataSourceRequest>
+</dat:ExecuteDataSource>  
+</soapenv:Body>
+</soapenv:Envelope>

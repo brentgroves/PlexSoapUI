@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+   <dat:ExecuteDataSource>  
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>19760</DataSourceKey>
+    <InputParameters>
+    </InputParameters>
+    <DataSourceName>Cost_Components_Download</DataSourceName>
+  </ExecuteDataSourceRequest>
+</dat:ExecuteDataSource>  
+</soapenv:Body>
+</soapenv:Envelope>

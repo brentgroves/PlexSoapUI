@@ -1,4 +1,3 @@
-Next: Create SOAP request for Daily Shift Report and then create a new dataflow for it in WebServiceTaskExample ETL script. 
 Notes: 
 Web URL: https://api.plexonline.com/DataSource/service.asmx
 Array Filter: $.soap:Envelope.soap:Body.ExecuteDataSourceResponse.ExecuteDataSourceResult.ResultSets.ResultSet.Rows.Row[*].Columns[*] 

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>16025</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>7244</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>VARCHAR, max length 25</Value>
+        <Name>@Part_Or_Material</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Cost_Model_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Cost_Model_Name</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 1000</Value>
+        <Name>@Part_Product_Type_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Active</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Cost_Sub_Type_Breakdown_Matrix</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>STRING, max length 500</Value>
+              <Name>Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 120</Value>
+              <Name>Part_Description</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 10</Value>
+              <Name>Line_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost_Breakdown</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Cost_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost_Model_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost_Type_Sort_Order</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 8</Value>
+              <Name>Revision</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>
