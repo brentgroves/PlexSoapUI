@@ -1,8 +1,9 @@
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:dat="http://www.plexus-online.com/DataSource">  
-<soap:Header/>  
-<soap:Body>  
-<dat:ExecuteDataSource>  
-<ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">  
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dat:ExecuteDataSource>
+         <!--Optional:-->
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
 <DataSourceKey>4322</DataSourceKey>  
 <InputParameters>  
       <InputParameter>
@@ -11,9 +12,9 @@
         <Required>false</Required>
         <Output>false</Output>
       </InputParameter>
-</InputParameters>  
+</InputParameters>   
 <DataSourceName>Part_Operations_Get_v2</DataSourceName>  
-</ExecuteDataSourceRequest>  
-</dat:ExecuteDataSource>  
-</soap:Body>  
-</soap:Envelope> 
+  </ExecuteDataSourceRequest>
+  </dat:ExecuteDataSource>
+   </soapenv:Body>
+</soapenv:Envelope>
