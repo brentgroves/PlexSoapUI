@@ -3,16 +3,28 @@
 <soap:Body>  
 <dat:ExecuteDataSource>  
 <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">  
-<DataSourceKey>4322</DataSourceKey>  
+<DataSourceKey>23365</DataSourceKey>  
 <InputParameters>  
       <InputParameter>
+        <Value>4893</Value>
+        <Name>@Cost_Model_Key</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>2795918</Value>
+        <Name>@Part_Key</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
         <Value>1</Value>
-        <Name>@Active_Parts</Name>
+        <Name>@Active_Only</Name>
         <Required>false</Required>
         <Output>false</Output>
       </InputParameter>
 </InputParameters>  
-<DataSourceName>Part_Operations_Get_v2</DataSourceName>  
+<DataSourceName>Cost_Component_Workcenters_Get</DataSourceName>  
 </ExecuteDataSourceRequest>  
 </dat:ExecuteDataSource>  
 </soap:Body>  
