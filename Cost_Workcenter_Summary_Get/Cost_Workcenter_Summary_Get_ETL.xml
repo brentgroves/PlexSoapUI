@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:dat="http://www.plexus-online.com/DataSource">  
+<soap:Header/>  
+<soap:Body>  
+<dat:ExecuteDataSource>  
+<ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">  
+   <DataSourceKey>23975</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>1/1/2022</Value>
+        <Name>@Date_Start</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>2/9/2022</Value>
+        <Name>@Date_End</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Cost_Workcenter_Summary_Get</DataSourceName>
+ </ExecuteDataSourceRequest>  
+</dat:ExecuteDataSource>  
+</soap:Body>  
+</soap:Envelope> 

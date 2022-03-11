@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>16162</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>23975</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>DATETIME</Value>
+        <Name>@Date_Start</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>DATETIME</Value>
+        <Name>@Date_End</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Cost_Type_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Cost_Sub_Type_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Workcenter_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Workcenter_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Cost_Workcenter_Summary_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Workcenter_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Workcenter_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Cost_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Cost_Sub_Type</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Unit</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost_Type_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Cost_Sub_Type_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Quantity</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Extended_Cost</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>
