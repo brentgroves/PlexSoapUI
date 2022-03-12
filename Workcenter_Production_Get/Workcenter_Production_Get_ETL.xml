@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+   <dat:ExecuteDataSource>  
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>10355</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Workcenter_Key</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Workcenter_Production_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+</dat:ExecuteDataSource>  
+</soapenv:Body>
+</soapenv:Envelope>

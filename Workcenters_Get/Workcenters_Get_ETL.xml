@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+   <dat:ExecuteDataSource>  
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>4031</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>CNC 318 Rear Carrier / S172</Value>
+        <Name>@Workcenter_Code</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Workcenters_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+</dat:ExecuteDataSource>  
+</soapenv:Body>
+</soapenv:Envelope>
+

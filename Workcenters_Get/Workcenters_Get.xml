@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>16164</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>4031</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Workcenter_Code</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 20</Value>
+        <Name>@Name</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Workcenter_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 20</Value>
+        <Name>@Part_No</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 20</Value>
+        <Name>@Operation_Code</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Building_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>SMALLINT</Value>
+        <Name>@Active</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Group</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>SMALLINT</Value>
+        <Name>@Control_Panel</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Department</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Shift_Cycle_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>SMALLINT</Value>
+        <Name>@MachineIntegration</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 500</Value>
+        <Name>@Building_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Key_Reporting</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>BIT</Value>
+        <Name>@Vision_Plex_Control_Panel</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Workcenters_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Workcenter_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Workcenter_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Name</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Workcenter_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Material_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Operation_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Heat_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Note</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 1</Value>
+              <Name>Part_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 1</Value>
+              <Name>Revision</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Operation_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 1</Value>
+              <Name>Operation_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 1</Value>
+              <Name>Heat_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Building_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Workcenter_Group</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Workcenter_Size</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Finite_Percent</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Building_Key</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Overhead_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Variable_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Setup_Cost</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 20</Value>
+              <Name>Account_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 20</Value>
+              <Name>Cost_Unit</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 60</Value>
+              <Name>Department_code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Shift_Cycle</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Direct_Labor_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Documents</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Lifetime</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Maintenance_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Fair_Market_Value</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>PLC_Name</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 15</Value>
+              <Name>IPAddress</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Sort_Order</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Other_Burden_Cost</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Shift_Cycle_Key</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>
