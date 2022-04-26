@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTemplateResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.plexus-online.com/DataSource">
+  <StatusNo>0</StatusNo>
+  <Error>false</Error>
+  <ErrorNo>0</ErrorNo>
+  <Message />
+  <InstanceNo>16285</InstanceNo>
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>8619</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Workcenter_Type</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>DATETIME</Value>
+        <Name>@Report_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>DATETIME</Value>
+        <Name>@End_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Workcenter_Code</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 50</Value>
+        <Name>@Shift</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Building</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 100</Value>
+        <Name>@Part</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Timeblock_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@PUN</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Log_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Job_Op_Key</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>VARCHAR, max length 500</Value>
+        <Name>@Operation_Keys</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>INT</Value>
+        <Name>@Department</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Detailed_Production_Get_New_Time</DataSourceName>
+  </ExecuteDataSourceRequest>
+  <ResultSets>
+    <ResultSet>
+      <RowCount>1</RowCount>
+      <Rows>
+        <Row>
+          <Columns>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Workcenter_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 100</Value>
+              <Name>Part_No</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Part_Key</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 8</Value>
+              <Name>Revision</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Heat_Code_Heat_No</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Piece_Weight</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Net_Weight</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Material_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 25</Value>
+              <Name>Serial_No</Name>
+            </Column>
+            <Column>
+              <Value>DATETIME</Value>
+              <Name>Record_Date</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>All_Users</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 101</Value>
+              <Name>Add_By</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Sample_Weight</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Quantity</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Gross_Weight</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Tare_Weight</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Shift</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Workcenter_Type</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Production_No</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Standard_Production_Rate</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 30</Value>
+              <Name>Operation_Code</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Note</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Container_Status</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 20</Value>
+              <Name>Job_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 500</Value>
+              <Name>Container_Note</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Tracking_no</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 10</Value>
+              <Name>Master_Unit_No</Name>
+            </Column>
+            <Column>
+              <Value>STRING, max length 50</Value>
+              <Name>Location</Name>
+            </Column>
+            <Column>
+              <Value>NUMERIC</Value>
+              <Name>Production_Time</Name>
+            </Column>
+          </Columns>
+        </Row>
+      </Rows>
+    </ResultSet>
+  </ResultSets>
+</GetTemplateResult>

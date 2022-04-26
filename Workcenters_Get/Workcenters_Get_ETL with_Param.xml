@@ -5,6 +5,12 @@
   <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
     <DataSourceKey>4031</DataSourceKey>
     <InputParameters>
+      <InputParameter>
+        <Value>CNC 318 Rear Carrier / S172</Value>
+        <Name>@Workcenter_Code</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
     </InputParameters>
     <DataSourceName>Workcenters_Get</DataSourceName>
   </ExecuteDataSourceRequest>

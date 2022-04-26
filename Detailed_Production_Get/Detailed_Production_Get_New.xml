@@ -1,19 +1,20 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
    <soapenv:Header/>
    <soapenv:Body>
-   <dat:ExecuteDataSource>  
+      <dat:ExecuteDataSource>
+         <!--Optional:-->
   <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
-    <DataSourceKey>10355</DataSourceKey>
+    <DataSourceKey>8619</DataSourceKey>
     <InputParameters>
       <InputParameter>
-        <Value>60921</Value>
-        <Name>@Workcenter_Key</Name>
-        <Required>true</Required>
+        <Value>4/26/2022 1:03:00 AM</Value>
+        <Name>@Report_Date</Name>
+        <Required>false</Required>
         <Output>false</Output>
       </InputParameter>
     </InputParameters>
-    <DataSourceName>Workcenter_Production_Get</DataSourceName>
+    <DataSourceName>Detailed_Production_Get_New</DataSourceName>
   </ExecuteDataSourceRequest>
-</dat:ExecuteDataSource>  
-</soapenv:Body>
+  </dat:ExecuteDataSource>
+   </soapenv:Body>
 </soapenv:Envelope>

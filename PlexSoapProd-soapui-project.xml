@@ -548,7 +548,7 @@
 <DataSourceKey>23365</DataSourceKey>  
 <InputParameters>  
       <InputParameter>
-        <Value>4893</Value>
+        <Value>4938</Value>
         <Name>@Cost_Model_Key</Name>
         <Required>true</Required>
         <Output>false</Output>
@@ -560,7 +560,7 @@
         <Output>false</Output>
       </InputParameter>
       <InputParameter>
-        <Value>1</Value>
+        <Value>0</Value>
         <Name>@Active_Only</Name>
         <Required>false</Required>
         <Output>false</Output>
@@ -613,12 +613,6 @@
   <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
     <DataSourceKey>4031</DataSourceKey>
     <InputParameters>
-      <InputParameter>
-        <Value>CNC 321 Rear Carrier / S172</Value>
-        <Name>@Workcenter_Code</Name>
-        <Required>false</Required>
-        <Output>false</Output>
-      </InputParameter>
     </InputParameters>
     <DataSourceName>Workcenters_Get</DataSourceName>
   </ExecuteDataSourceRequest>
