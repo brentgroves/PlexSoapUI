@@ -481,13 +481,13 @@
     <DataSourceKey>9726</DataSourceKey>
     <InputParameters>
       <InputParameter>
-        <Value>1/24/2022</Value>
+        <Value>4/26/2022</Value>
         <Name>@Start_Date</Name>
         <Required>true</Required>
         <Output>false</Output>
       </InputParameter>
       <InputParameter>
-        <Value>1/24/2022</Value>
+        <Value>4/26/2022</Value>
         <Name>@End_Date</Name>
         <Required>false</Required>
         <Output>false</Output>
@@ -630,7 +630,72 @@
   </ExecuteDataSourceRequest>
 </dat:ExecuteDataSource>  
 </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:credentials><con:username>BuscheAlbionWs2@plex.com</con:username><con:password>6afff48-ba19-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="c0f4951d-cc70-4cbb-8662-70ec4d3c5fa6" isOneWay="false" action="http://www.plexus-online.com/DataSource/ExecuteDataSourceByDataSourceKey" name="ExecuteDataSourceByDataSourceKey" bindingOperationName="ExecuteDataSourceByDataSourceKey" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d6da5f3b-0441-4d3d-bd14-a92e26e51707" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>BuscheAlbionWs2@plex.com</con:username><con:password>6afff48-ba19-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call><con:call id="210da068-af2e-4929-9de6-4c1db143ec7d" name="Detailed_Production_Get_New_Edon"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dat:ExecuteDataSource>
+         <!--Optional:-->
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>8619</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>5/20/2022 12:00:00 PM</Value>
+        <Name>@Report_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      
+    </InputParameters>
+    <DataSourceName>Detailed_Production_Get_New</DataSourceName>
+  </ExecuteDataSourceRequest>
+  </dat:ExecuteDataSource>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>MGEdonReportsws@plex.com</con:username><con:password>9f45e3d-67ed-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call><con:call id="9cf7efa8-04f0-42b0-a96e-58a67e8b2866" name="Daily_Shift_Report_Get_Edon"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dat:ExecuteDataSource>
+         <!--Optional:-->
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>9726</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>4/26/2022</Value>
+        <Name>@Start_Date</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>4/26/2022</Value>
+        <Name>@End_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+    </InputParameters>
+    <DataSourceName>Daily_Shift_Report_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+  </dat:ExecuteDataSource>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>MGEdonReportsws@plex.com</con:username><con:password>9f45e3d-67ed-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call><con:call id="3d822553-ae65-4875-960a-2d4911032a8f" name="Workcenter_Status_Get_All"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dat:ExecuteDataSource>
+         <!--Optional:-->
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>6265</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>5/20/2022 12:00:00 PM</Value>
+        <Name>@Report_Date</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      
+    </InputParameters>
+    <DataSourceName>Workcenter_Status_Get_All</DataSourceName>
+  </ExecuteDataSourceRequest>
+  </dat:ExecuteDataSource>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>MGEdonReportsws@plex.com</con:username><con:password>9f45e3d-67ed-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="c0f4951d-cc70-4cbb-8662-70ec4d3c5fa6" isOneWay="false" action="http://www.plexus-online.com/DataSource/ExecuteDataSourceByDataSourceKey" name="ExecuteDataSourceByDataSourceKey" bindingOperationName="ExecuteDataSourceByDataSourceKey" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="d6da5f3b-0441-4d3d-bd14-a92e26e51707" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
    <soapenv:Header/>
    <soapenv:Body>
       <dat:ExecuteDataSourceByDataSourceKey>
