@@ -481,13 +481,13 @@
     <DataSourceKey>9726</DataSourceKey>
     <InputParameters>
       <InputParameter>
-        <Value>4/26/2022</Value>
+        <Value>8/10/2022</Value>
         <Name>@Start_Date</Name>
         <Required>true</Required>
         <Output>false</Output>
       </InputParameter>
       <InputParameter>
-        <Value>4/26/2022</Value>
+        <Value>8/10/2022</Value>
         <Name>@End_Date</Name>
         <Required>false</Required>
         <Output>false</Output>
@@ -788,6 +788,38 @@
         <Value>11010-000-0000</Value>
         <Name>@Account_No_To</Name>
         <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+
+    </InputParameters>
+    <DataSourceName>Account_Activity_Summary_xPCN_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+  </dat:ExecuteDataSource>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>BuscheAlbionWs2@plex.com</con:username><con:password>6afff48-ba19-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call><con:call id="0f336e20-37e9-4d8a-9908-24f1c14dcafb" name="Copy of Account_Activity_Summary_xPCN_Get_Multi_Period"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dat:ExecuteDataSource>
+         <!--Optional:-->
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>4814</DataSourceKey>
+    <InputParameters>
+      <InputParameter>
+        <Value>123681</Value>
+        <Name>@PCNs</Name>
+        <Required>false</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>202201</Value>
+        <Name>@Period_Start</Name>
+        <Required>true</Required>
+        <Output>false</Output>
+      </InputParameter>
+      <InputParameter>
+        <Value>202208</Value>
+        <Name>@Period_End</Name>
+        <Required>true</Required>
         <Output>false</Output>
       </InputParameter>
 
