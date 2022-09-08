@@ -796,35 +796,36 @@
   </ExecuteDataSourceRequest>
   </dat:ExecuteDataSource>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:credentials><con:username>BuscheAlbionWs2@plex.com</con:username><con:password>6afff48-ba19-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call><con:call id="0f336e20-37e9-4d8a-9908-24f1c14dcafb" name="Copy of Account_Activity_Summary_xPCN_Get_Multi_Period"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>BuscheAlbionWs2@plex.com</con:username><con:password>6afff48-ba19-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call><con:call id="033797d8-5ecb-424c-99af-e534d361fd28" name="Period_Min_Get"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
    <soapenv:Header/>
    <soapenv:Body>
       <dat:ExecuteDataSource>
          <!--Optional:-->
   <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
-    <DataSourceKey>4814</DataSourceKey>
+    <DataSourceKey>22088</DataSourceKey>
+    <InputParameters>
+    </InputParameters>
+    <DataSourceName>Period_Min_Get</DataSourceName>
+  </ExecuteDataSourceRequest>
+  </dat:ExecuteDataSource>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:username>BuscheAlbionWs2@plex.com</con:username><con:password>6afff48-ba19-</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.plexus-online.com/DataSource/ExecuteDataSource"/><con:wsrmConfig version="1.2"/></con:call><con:call id="905aa382-9aeb-44e1-96a8-92da6f3365cd" name="Periods_Get(Accounting)"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://api.plexonline.com/DataSource/service.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dat="http://www.plexus-online.com/DataSource">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dat:ExecuteDataSource>
+         <!--Optional:-->
+  <ExecuteDataSourceRequest xmlns="http://www.plexus-online.com/DataSource">
+    <DataSourceKey>324</DataSourceKey>
     <InputParameters>
       <InputParameter>
-        <Value>123681</Value>
-        <Name>@PCNs</Name>
+        <Value>2022</Value>
+        <Name>@Fiscal_Year</Name>
         <Required>false</Required>
         <Output>false</Output>
       </InputParameter>
-      <InputParameter>
-        <Value>202201</Value>
-        <Name>@Period_Start</Name>
-        <Required>true</Required>
-        <Output>false</Output>
-      </InputParameter>
-      <InputParameter>
-        <Value>202208</Value>
-        <Name>@Period_End</Name>
-        <Required>true</Required>
-        <Output>false</Output>
-      </InputParameter>
-
+ 
     </InputParameters>
-    <DataSourceName>Account_Activity_Summary_xPCN_Get</DataSourceName>
+    <DataSourceName>Periods_Get(Accounting)</DataSourceName>
   </ExecuteDataSourceRequest>
   </dat:ExecuteDataSource>
    </soapenv:Body>
